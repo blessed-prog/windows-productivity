@@ -32,3 +32,15 @@ In the right pane, right-click and opt to create a new DWORD 32-bit value. Once 
     git config --global core.autocrlf false
     git config --global core.filemode false
     git config --global branch.autosetuprebase always
+
+## Display settings
+
+#### Color adjust
+
+#### Turn off sensor monitoring
+
+* Save the settings through clicking Apply and then OK
+If you don’t find an Adaptive Display setting, your device might not have a built-in ambient light sensor.
+* If you followed the instructions but the adaptive brightness didn’t change your auto-brightness setting, you’ll need to turn off the Sensor Monitoring service by pressing Win + R and typing services.msc. Then press Enter
+* In the services window, click on the Sensor Monitoring Service which will lead to the service settings window
+* Click Stop and select Disabled from the drop-down menu found next to the Startup type
